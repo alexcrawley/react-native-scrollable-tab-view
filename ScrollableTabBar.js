@@ -7,12 +7,13 @@ const {
   View,
   Animated,
   StyleSheet,
-  ScrollView,
   Text,
   Platform,
   Dimensions,
 } = ReactNative;
+import { ScrollView } from 'react-native-gesture-handler';
 const Button = require('./Button');
+
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
 
